@@ -3,7 +3,7 @@
     <q-header elevated>
       <q-toolbar>
         <q-toolbar-title id="layout-name">
-          {{getName()}}
+          name
         </q-toolbar-title>
       </q-toolbar>
     </q-header>
@@ -16,22 +16,22 @@
 <script>
 import EssentialLink from 'components/EssentialLink.vue'
 
-new Vue({
-el:"#layout-name",
-data:
-  {
-    id:1,
-    name:"Home",
-    id:2,
-    name:"Profile"
-},
-methods:{
-  getName:function(){
-    return this.name;
-  }
-}
-}
-)
+// new Vue({
+// el:"#layout-name",
+// data:
+//   {
+//     id:1,
+//     name:"Home",
+//     id:2,
+//     name:"Profile"
+// },
+// methods:{
+//   getName:function(){
+//     return this.name;
+//   }
+// }
+// }
+// )
 
 export default {
  
